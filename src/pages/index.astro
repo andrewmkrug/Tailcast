@@ -20,15 +20,15 @@ import { ScrollUpButton } from "../components/ScrollUpButton";
 ---
 <Layout title="Tailcast">
   <Navbar client:load />
-  <Hero client:load />
-  <Features1 client:load />
+  <Hero client:visible />
+  <Features1 client:visible />
   <Divider />
-  <Features2 client:load />    
-  <Testimonials client:load />
-  <FeaturesDiagonal client:load />
-  <Pricing client:load />
-  <Brands client:load />
-  <FAQ client:load />
+  <Features2 client:visible />    
+  <Testimonials client:visible />
+  <FeaturesDiagonal client:visible />
+  <Pricing client:visible />
+  <Brands client:visible />
+  <FAQ client:visible />
   <Footer />
   <ScrollUpButton  client:load />
 </Layout>
